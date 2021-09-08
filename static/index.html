@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="flex">
+    <div class="flex column">
+        <h1>Portrait Generator</h1>
+        <div class="flex">
+            <canvas class="portrait" portrait></canvas>
+            <div class="flex column">
+                <div class="control flex column">
+                    <select gender_option>
+                        <option value="random">Random Gender</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+                    <select mood_option>
+                        <option value="random">Random Mood</option>
+                        <option value="neutral">Neutral</option>
+                        <option value="positive">Positive</option>
+                        <option value="negative">Negative</option>
+                        <option value="talkative">Talkative</option>
+                    </select>
+                    <span><input type="checkbox" checked="true" shadow_option/> Shadow</span>
+                    <button regenerate_button>&#8635;</button>
+                </div>
+            </div>
+        </div>
+        <div>Why not pair it with some <a href="https://retro-speech.dosaki.net/">retro speech sounds</a>?</div>
+        <div class="authors">by <a href="https://twitter.com/dosaki">Dosaki</a></div>
+        <div class="authors">Art by <a href="https://www.artstation.com/zarigasofia">Zariga</a></div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
