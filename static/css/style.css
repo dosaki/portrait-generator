@@ -46,3 +46,41 @@ body {
 .authors {
     font-size: 12px;
 }
+
+@media screen and (max-width: 590px) {
+    h1 {
+        display: none;
+    }
+    .portrait {
+        width: 260px;
+        margin: auto;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .control {
+        margin: 4px;
+    }
+    .footer {
+        margin: 4px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        display: none;
+    }
+    .portrait {
+        width: 240px;
+        margin: auto;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .control {
+        margin: 4px;
+    }
+    .footer {
+        margin: 4px;
+    }
+}

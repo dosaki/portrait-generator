@@ -2,8 +2,8 @@ import { makePortrait } from './portrait-generator';
 import { pick } from './utils/random-utils';
 
 const canvas = document.querySelector('[portrait]');
-canvas.width = Math.min(window.innerWidth, 514);
-canvas.height = Math.min(window.innerHeight, 836);
+canvas.width = 514;
+canvas.height = 836;
 const ctx = canvas.getContext('2d');
 
 
