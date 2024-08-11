@@ -11,8 +11,6 @@ jobs:
       - run: echo "Github actions need a step without any conditions"
 
   build_and_deploy:
-    needs:
-      - test
     timeout-minutes: 10
     if: "!contains(github.event.head_commit.message, 'NO_DEPLOY')"
     environment:
