@@ -1,5 +1,5 @@
-import { makePortrait } from './portrait-generator';
-import { pick } from './utils/random-utils';
+import { makePortrait } from './portrait-generator.js';
+import { pick } from './utils/random-utils.js';
 
 const canvas = document.querySelector('[portrait]');
 canvas.width = 514;

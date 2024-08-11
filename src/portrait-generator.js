@@ -1,4 +1,4 @@
-import { pick } from './utils/random-utils';
+import { pick } from './utils/random-utils.js';
 
 const skinHairColours = {
     "#fce3c2": ["#313131", "#bdbdbd", "#adb4b5", "#2c1b00", "#000000", "#c17700", "#d84100", "#5e0000"],

@@ -3,3 +3,6 @@ dist
 node_modules
 coverage
 publish.sh
+.idea
+terraform/.terraform
+terraform/.terraform.lock.hcl

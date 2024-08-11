@@ -1,16 +1,14 @@
-module.exports = {}
-
-module.exports.pick = (...args) => {
-    const nr = module.exports.int(0, args.length - 1);
+export const pick = (...args) => {
+    const nr = int(0, args.length - 1);
     return args[nr];
 };
 
 /**
  * Generate a random Integer.
- * @param { integer } min Minimum Integer in the range (inclusive)
- * @param { integer } max Maximum Integer in the range (inclusive)
- * @returns { integer }
+ * @param { number } min Minimum Integer in the range (inclusive)
+ * @param { number } max Maximum Integer in the range (inclusive)
+ * @returns { number }
  */
-module.exports.int = (min, max) => {
+export const int = (min, max) => {
     return Math.floor(Math.random() * ((max + 1) - min) + min);
 };
